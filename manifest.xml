@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="engstk"
-           fetch="https://github.com/engstk" />
+  <remote  name="franco"
+          fetch="https://github.com/franciscofranco" />
+           
   <remote  name="mastero9017"
-           fetch="https://github.com/mastero9017" />
-  <remote  name="tc"
-           fetch="https://github.com/Christopher83" />
-  <remote  name="ubertc"
-           fetch="https://bitbucket.org/UBERTC/" />
-  <remote  name="uber"
-           fetch="https://github.com/Cl3Kener" />
-  <default revision="master"
-           remote="ubertc"
-           sync-j="4" />
- 
-  <project path="UBER" name="UBER-L" remote="uber" revision="test" />
-  <project path="arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" />
-  <project path="linaro" name="arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="tc" revision="master" />
-  <project path="hammerhead-5.0" name="hammerhead-5.0" remote="mastero9017" revision="code_blue-l" />
+          fetch="https://github.com/mastero9017" />
+
+  <project path="hammerhead" name="hammerhead" remote="mastero9017" revision="lollipop-mr1" />
+  <project path="ramdisk_hammerhead" name="ramdisk_hammerhead" remote="mastero9017" revision="lollipop-mr1" />
 </manifest>
